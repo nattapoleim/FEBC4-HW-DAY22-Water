@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   @apply font-noto;
+}
+
+@layer components {
+   .btn {
+      @apply flex items-center justify-center border py-2 px-4 space-x-2 transition-all duration-150;
+   }
+}
